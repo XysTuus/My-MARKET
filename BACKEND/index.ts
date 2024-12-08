@@ -20,5 +20,6 @@ app.listen(port, async () => {
     });
   } catch (error) {
     return error;
+    process.exit(1);
   }
 });
