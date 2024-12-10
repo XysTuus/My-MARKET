@@ -1,6 +1,7 @@
 import { connect } from "mongoose";
 import env from "dotenv";
 
+env.config();
 export const dbConfig = async () => {
   try {
     console.log("starting database......");
